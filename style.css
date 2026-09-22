@@ -1,0 +1,149 @@
+/* Soft Feminine Pastel Pink Theme */
+body {
+    background-color: #fff0f5; /* Light pink background */
+    color: #333333;            /* Clear text */
+    font-family: Arial, sans-serif;
+    margin: 30px auto;
+    max-width: 700px;
+    background-color: #ffffff; /* White card layout */
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(244, 114, 182, 0.15);
+}
+
+/* Accessibility link */
+.skip-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+/* Top Header Metadata Block */
+.top-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    color: #888888;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f8bbd0;
+}
+
+/* Menu Bar */
+.nav-bar {
+    margin: 15px 0;
+    padding: 10px 0;
+    border-top: 2px solid #f8bbd0;
+    border-bottom: 2px solid #f8bbd0;
+    font-weight: bold;
+}
+
+.nav-bar a {
+    color: #ec4899;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.nav-bar a:hover {
+    color: #be185d;
+}
+
+.last-updated {
+    font-size: 0.85rem;
+    color: #888888;
+    margin-bottom: 25px;
+}
+
+/* Headings */
+h1.section-title {
+    color: #831843; /* Deep Pink Accent */
+    font-size: 1.6rem;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #fbcfe8;
+    padding-bottom: 5px;
+}
+
+h2.sub-heading {
+    color: #9d174d;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+h3.item-heading {
+    color: #831843;
+    font-size: 1.05rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+ul {
+    line-height: 1.6;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+hr.divider {
+    border: 0;
+    border-top: 1px dashed #f8bbd0;
+    margin: 15px 0;
+}
+
+/* Tech Badges */
+.tech-tag {
+    display: inline-block;
+    background-color: #fce7f3;
+    color: #9d174d;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+/* Links */
+a {
+    color: #ec4899;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.item-block {
+    margin-bottom: 25px;
+}
+
+.date-range {
+    color: #888888;
+    font-size: 0.9rem;
+}
+
+.org-name {
+    font-weight: bold;
+    color: #831843;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: #888888;
+    border-top: 1px solid #f8bbd0;
+    padding-top: 15px;
+}
